@@ -9,6 +9,7 @@
     "rename": "node src/fs/rename.js",
     "delete": "node src/fs/delete.js",
     "list": "node src/fs/list.js",
+    "read": "node src/fs/read.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
