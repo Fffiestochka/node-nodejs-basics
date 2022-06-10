@@ -10,6 +10,7 @@
     "delete": "node src/fs/delete.js",
     "list": "node src/fs/list.js",
     "read": "node src/fs/read.js",
+    "env": "npx cross-env RSS_name1=value1; RSS_name2=value2 node src/cli/env.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
