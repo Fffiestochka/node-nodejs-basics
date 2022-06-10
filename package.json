@@ -12,6 +12,7 @@
     "read": "node src/fs/read.js",
     "env": "npx cross-env RSS_name1=value1; RSS_name2=value2 node src/cli/env.js",
     "args": "node src/cli/args.js --propName value --prop2Name value2",
+    "cjsToEsm": "node src/modules/cjsToEsm.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
