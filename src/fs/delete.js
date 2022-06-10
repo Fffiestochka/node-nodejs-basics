@@ -6,7 +6,7 @@ export const remove = async () => {
   try {
 
     const fileToRemovePath = getPath(import.meta.url, 'fileToRemove.txt');
-    rm(fileToRemovePath);
+    await rm(fileToRemovePath);
 
   } catch (err) {
     throw new Error('FS operation failed');

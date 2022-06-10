@@ -7,3 +7,10 @@ export const getPath = (url, fileName) => {
   const filePath = join(__dirname, 'files', fileName);
   return filePath;
 }
+
+export const getFolderPath = (url) => {
+  const __filename = fileURLToPath(url);
+  const __dirname = dirname(__filename);
+  const folderPath = join(__dirname, 'files');
+  return folderPath;
+};
