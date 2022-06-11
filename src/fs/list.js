@@ -1,3 +1,17 @@
+import { getFolderPath } from './getPath.js';
+import { readdir } from 'fs/promises';
+
 export const list = async () => {
-    // Write your code here 
+  try {
+
+    const pathToFolder = getFolderPath(import.meta.url);
+    console.log(pathToFolder);
+    let fileNameArr = await readdir(pathToFolder);
+    console.log(fileNameArr);
+
+  } catch (err) {
+    throw new Error('FS operation failed');
+  }
 };
+
+list();
