@@ -17,6 +17,8 @@
     "readStream": "node src/streams/read.js",
     "write": "node src/streams/write.js",
     "transform": "node src/streams/transform.js",
+    "compress": "node src/zip/compress.js",
+    "decompress": "node src/zip/decompress.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
