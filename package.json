@@ -14,6 +14,7 @@
     "args": "node src/cli/args.js --propName value --prop2Name value2",
     "cjsToEsm": "node src/modules/cjsToEsm.mjs",
     "calcHash": "node src/hash/calcHash.js",
+    "readStream": "node src/streams/read.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
